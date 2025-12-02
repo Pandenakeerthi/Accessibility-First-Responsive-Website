@@ -1,77 +1,110 @@
+
 **🌐 Accessibility-First Responsive Website**
 
-A fully accessible, responsive small-business website designed with WCAG 2.1 guidelines, ARIA attributes, and keyboard-first usability.
-This project focuses on clean UI, semantic HTML, dark & high-contrast modes, and improving accessibility for all users, including screen-reader users.
+A fully accessible and responsive small business website built using HTML, CSS, and JavaScript, following WCAG 2.1 accessibility standards.
 
 🚀 Features
-⭐ Accessibility
+🟦 Accessibility (A11Y)
 
-🧭 Skip to Main Content for keyboard users
+Skip to Main Content link
 
-🎧 Screen reader–friendly with proper ARIA labels
+100% keyboard navigable
 
-🔡 Semantic HTML5 structure (header, nav, main, footer)
+ARIA labels for improved screen reader support
 
-🌗 High-contrast mode toggle
+Semantic HTML5 tags (header, nav, main, footer, section)
 
-🎯 Visible, clear keyboard focus outlines
+High-contrast mode toggle
 
-⌨️ 100% Keyboard navigable (Tab, Shift+Tab)
+Visible focus outlines
 
-📝 Proper form labels & error alerts
+Proper heading hierarchy (H1 → H2 → H3)
 
-⚠️ Accessible color palette (WCAG AA compliant)
+Descriptive link names
 
-🚪 Descriptive link names (“Learn More”, “Contact Support”)
+Accessible forms with labels & alerts
 
-⭐ Responsive Design
+🟩 Responsive Design
 
-📱 Mobile-first layout
+Mobile-first layout
 
-📏 Responsive navbar with accessible hamburger menu
+Responsive navigation bar (hamburger menu)
 
-🖥️ Grid & Flexbox layouts
+Flexbox & Grid layout design
 
-🧩 Scales smoothly on 320px → 1440px screens
+Works on all screens: 320px → 1440px+
 
-⭐ Small Business Website Pages
+🟧 Website Pages
 
 🏠 Home
 
 🛠️ Services
 
-🧑‍💼 About Us
+🧑‍💼 About
 
 ✉️ Contact
 
 🛠️ Tech Stack
 
-HTML5 (Semantic, ARIA-friendly)
+HTML5
 
-CSS3 (Flexbox, Grid, Media Queries)
+CSS3
 
-Vanilla JavaScript (theme toggle, navbar menu)
+JavaScript
 
-WCAG Accessibility Guidelines
+ARIA Roles & WCAG Guidelines
 
 Google Fonts
 
-📂 Folder Structure
-/project-folder
+project-folder/
 │── index.html
 │── about.html
 │── services.html
 │── contact.html
-├── /css
+│
+├── css/
 │   ├── style.css
 │   ├── about.css
 │   ├── services.css
 │   ├── contact.css
-└── /js
-    └── main.js
+│
+├── js/
+│   └── main.js
+│
+└── assets/
+    ├── logo.png
+    ├── banner.jpg
+    ├── icons/
+    └── images/
 
-🌍 Live Demo
+🌍 Live Demo (Add After Deployment)
 
-👉 Add Netlify link here:
-https://your-project-name.netlify.app
-    
+🔗 https://accessibility-first-website.netlify.app/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

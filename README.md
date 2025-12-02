@@ -1,109 +1,129 @@
+Accessibility-First Responsive Website
 
-**🌐 Accessibility-First Responsive Website**
+This is a responsive and accessibility-focused website built using HTML, CSS, and JavaScript. The project follows WCAG accessibility guidelines and includes keyboard navigation, semantic HTML structure, ARIA labels, skip links, and responsive layouts for all screen sizes.
 
-A fully accessible and responsive small business website built using HTML, CSS, and JavaScript, following WCAG 2.1 accessibility standards.
+Features
 
-🚀 Features
-🟦 Accessibility (A11Y)
+Accessibility:
 
 Skip to Main Content link
 
-100% keyboard navigable
+Keyboard navigation support
 
-ARIA labels for improved screen reader support
+ARIA labels and roles
 
-Semantic HTML5 tags (header, nav, main, footer, section)
+Semantic HTML structure
 
-High-contrast mode toggle
+High contrast mode toggle
 
-Visible focus outlines
+Focus outlines for all interactive elements
 
-Proper heading hierarchy (H1 → H2 → H3)
+Proper heading hierarchy
 
-Descriptive link names
+Accessible forms with labels
 
-Accessible forms with labels & alerts
-
-🟩 Responsive Design
+Responsive Design:
 
 Mobile-first layout
 
-Responsive navigation bar (hamburger menu)
+Responsive navigation bar
 
-Flexbox & Grid layout design
+Flexbox and Grid layouts
 
-Works on all screens: 320px → 1440px+
+Works on all screen sizes
 
-🟧 Website Pages
+Pages:
 
-🏠 Home
+Home
 
-🛠️ Services
+Services
 
-🧑‍💼 About
+About
 
-✉️ Contact
+Contact
 
-🛠️ Tech Stack
+Tech Stack
 
-HTML5
+HTML
 
-CSS3
+CSS
 
 JavaScript
 
-ARIA Roles & WCAG Guidelines
+WCAG Guidelines
 
-Google Fonts
+ARIA Roles
+
+Folder Structure
 
 project-folder/
 │── index.html
-│── about.html
 │── services.html
+│── about.html
 │── contact.html
 │
 ├── css/
-│   ├── style.css
-│   ├── about.css
-│   ├── services.css
-│   ├── contact.css
+│ ├── style.css
+│ ├── services.css
+│ ├── about.css
+│ ├── contact.css
 │
 ├── js/
-│   └── main.js
+│ └── main.js
 │
 └── assets/
-    ├── logo.png
-    ├── banner.jpg
-    ├── icons/
-    └── images/
+├── images/
+├── icons/
+└── logo.png
 
-🌍 Live Demo (Add After Deployment)
+How to Run
 
-🔗 https://accessibility-first-website.netlify.app/
+Clone the repository
+git clone https://github.com/your-username/accessibility-first-website.git
 
+Open the folder
 
+Open index.html in any browser
 
+Accessibility Code Examples
 
+Skip link:
+<a href="#main-content" class="skip-link">Skip to main content</a>
 
+ARIA label:
 
+<nav aria-label="Main Navigation">
 
+Focus outline:
+:focus {
+outline: 3px solid black;
+outline-offset: 3px;
+}
 
+High contrast mode:
+document.body.classList.toggle("high-contrast");
 
+What This Project Shows
 
+Understanding of accessibility
 
+Semantic HTML usage
 
+Responsive design
 
+Clean CSS and JavaScript
 
+User-friendly design
 
+Multi-page website structure
 
+Live Demo
 
+(Add Netlify link after deployment)
 
+Author
 
-
-
-
-
-
+Pandena Keerthi
 
 
 
